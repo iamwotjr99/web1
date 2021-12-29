@@ -8,7 +8,7 @@ mongoose.connect('mongodb+srv://iamwotjr:asd1234@boilerplate.3yh00.mongodb.net/m
 
 
 app.get('/', (req, res) => {
-    res.send("Hello World!");
+    res.send("github is so hard");
 })
 
 app.listen(port, () => {
