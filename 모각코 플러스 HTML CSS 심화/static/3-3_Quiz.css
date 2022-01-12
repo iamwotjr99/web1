@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+    font-family: 'YdestreetB';
+    color:darkorange;
+}
+span {
+    font-style: italic;
+    color:darkorchid;
+}
+a {
+    text-decoration-line: none;
+    color:green;
+}
+.intro {
+    font-family: 'YdestreetB';
+    color:darkturquoise;
+}
+.detail {
+    font-family: 'YdestreetB';
+    text-decoration-line: underline;
+}
+#other {
+    font-family: 'YdestreetB';
+    color:brown;
+}
+.other {
+    font-family: 'Nanum Gothic', sans-serif;
+    color:black;
+    font-size: 16pt;
+}
