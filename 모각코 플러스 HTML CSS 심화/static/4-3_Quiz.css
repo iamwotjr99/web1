@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu {
+    display: inline-block;
+    padding: 10px;
+    color:#ccc;
+}
+hr {
+    height: 1px;
+    border: 0;
+    background: #ccc;
+}
+#title {
+    font-family: 'OTWelcomeRA';
+    font-size: 2.8em;
+    color:black;
+}
+#M_project {
+    color: black;
+    font-weight: 700;
+}
+.post {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    height: 280px;
+}
+.post_img {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35%;
+}
+.post_main {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    bottom: 70%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+span {
+    font-family: 'OTWelcomeRA';
+    font-size: 1.5em;
+}
+p {
+    font-size: 0.9em;
+
+}
