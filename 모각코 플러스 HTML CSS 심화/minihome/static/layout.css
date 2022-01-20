@@ -88,13 +88,118 @@ body {
 .row2_intro {
     flex: 1;
     margin: 0px 30px 30px 30px;
+    font-size: 0.8em;
+}
+
+.row2_dropdown {
+    flex: 0.7;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_title {
+    flex: 0.2;
+    margin-bottom: 10px;
+}
+
+.dropdown_title > span {
+    font-size: 0.8em;
+}
+
+.dropdown_btn {
+    flex:0.25;
+    border: 1px solid lightgray;
+    background-color: white;
     font-size: 0.7em;
+    text-align: left;
+    position: relative;
+}
+
+.dropdown_content {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: white;
+    font-size: 1.1em;
+    display: none;
+    box-shadow: 0px 0px 20px gray;
+    top:5px
+}
+
+.dropdown_content > a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    display: block;
+    padding-left: 3px;
+    font-family: 'Pretendard-Regular';
+}
+
+.dropdown_content > a:hover {
+    background-color: lightgray;
+}
+
+.dropdown_btn:hover > .dropdown_content {
+    display: block;
 }
 
 .column3 {
-    flex: 0.1;
+    flex: 0.11;
 
     display: flex;
-    border: 2px solid gray;
     border-radius: 3px;
+    flex-direction: column;
+}
+
+.column3_home {
+    flex-basis: 6%;
+    background-color:skyblue;
+    margin: 65px 0px 5px 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: inline;
+}
+
+.column3_diary {
+    flex-basis: 6%;
+    background-color:skyblue;
+    margin: 10px 0px 5px 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: inline;
+}
+
+.column3_gallery {
+    flex-basis: 6%;
+    background-color:skyblue;
+    margin: 10px 0px 5px 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: inline;
+}
+
+.column3_visitor {
+    flex-basis: 6%;
+    background-color:skyblue;
+    margin: 10px 0px 5px 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: inline;
+}
+
+.column3 a {
+    font-size: 0.8em;
+    font-family: 'Pretendard-Regular';
+    padding: 5px;
+    vertical-align: middle;
+    display: table-cell;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.column3_home:hover, .column3_diary:hover, .column3_gallery:hover, .column3_visitor:hover {
+    background-color: aliceblue;
 }
