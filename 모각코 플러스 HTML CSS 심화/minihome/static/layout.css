@@ -145,6 +145,41 @@ body {
     display: block;
 }
 
+.column2 {
+    flex: 1;
+
+    display: flex;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+    flex-direction: column;
+}
+
+.column_etc1 {
+    flex: 1;   
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.column_etc2 {
+    flex: 1;   
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.row_etc {
+    flex: 0.06;
+    display: flex;
+    flex-direction: row;
+}
+
+.row_main {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 .column3 {
     flex: 0.11;
 

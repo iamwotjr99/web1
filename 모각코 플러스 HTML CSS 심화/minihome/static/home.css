@@ -1,11 +1,3 @@
-.column2 {
-    flex: 1;
-
-    display: flex;
-    border-radius: 5px;
-    margin: 0px 0px 0px 10px;
-    flex-direction: column;
-}
 
 .row_etc {
     flex: 0.06;
@@ -153,16 +145,4 @@
 .room_main > img {
     width: 100%;
     height: 100%;
-}
-
-.column_etc1 {
-    flex: 1;   
-    margin-top: 10px;
-    font-size: 0.8em;
-}
-
-.column_etc2 {
-    flex: 1;   
-    margin-top: 10px;
-    font-size: 0.8em;
 }
