@@ -1,0 +1,105 @@
+.row_main {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main_diary {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    flex: 1;
+    margin: 10px 0px 20px 20px;
+}
+
+.diary_calender {
+    flex: 0.1;
+    border: 1px solid lightgray;
+    margin: 20px 10px 10px 20px;
+    display: flex;
+}
+
+.diary_today {
+    flex: 0.2;
+    font-family: "establishRetrosansOTF";
+    text-align: center;
+}
+
+.d_today {
+    color:dodgerblue;
+    font-size:1.1em;
+    margin-top:10%;
+}
+
+.diary_day {
+   flex: 1;
+   font-family: 'ACCchildrenheartOTF-Regular';
+}
+
+.d_day {
+    width: 97%;
+    height: 75%;
+    margin: 10px 0px 0px 0px;
+    font-size: 1.1em;
+}
+
+.sat {
+    color: blue;
+}
+
+.sun {
+    color: red;
+}
+
+.diary_item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.diary_title {
+    margin-top : 20px;
+    flex: 0.15;
+}
+
+.title_write {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    font-size: 0.9em;
+    font-family: "Pretendard-Regular";
+    color:dodgerblue;
+    flex: 1;
+}
+
+.diary_write {
+    margin: 2% 2% 5% 2%;
+    font-family: 'KyoboHandwriting2020A';
+    text-align: center;
+}
+
+.hidden_diary {
+    text-align: center;
+}
+
+.hidden_btn {
+    font-family: 'LAB디지털';
+    color: white;
+    background-color:white;
+    padding: 4%;
+    border-color: white;
+    border-style: solid;
+    transition: 800ms ease all;
+}
+
+.hidden_btn:hover {
+    border-color:black;
+    background-color:gold;
+}
