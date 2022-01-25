@@ -103,3 +103,7 @@
     border-color:black;
     background-color:gold;
 }
+
+#secret_diary {
+    display: none;
+}

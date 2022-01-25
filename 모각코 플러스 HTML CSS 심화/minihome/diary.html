@@ -96,8 +96,18 @@
                         </div>
                     </div>
                     <div class="hidden_diary">
-                        <button class="hidden_btn"><i class="fas fa-lock"></i> 재발자의 비밀일기 보기</button>
+                        <button class="hidden_btn" 
+                        onclick="getTextFile()"><i class="fas fa-lock"></i> 재발자의 비밀일기 보기</button>
                     </div>
+                    <div id="secret_diary" class="diary_item">
+                      <div class="diary_title">
+                          <div class="title_write">
+                              재발자의 비밀일기
+                          </div>
+                      </div>
+                      <div id="text" class="diary_write"><br>
+                      </div>
+                  </div>
                   </div>
               </div>
             </div>
@@ -111,5 +121,25 @@
         </div>
       </div>
     </div>
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+        reader.onload = function() {
+          document.getElementById("text").innerText = reader.result;
+        }
+        document.getElementById("secret_diary").style.display = "block";
+      }
+    </script>
   </body>
 </html>
