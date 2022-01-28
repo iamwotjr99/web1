@@ -163,9 +163,19 @@ body {
 .column_etc2 {
     flex: 1;   
     margin-top: 10px;
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
-
+.column_etc2 a {
+    text-decoration-line: none;
+}
+.column_etc2 a:visited {
+    color:black;
+    text-decoration: none;
+}
+.column_etc2 a:link {
+    color:black;
+    text-decoration: none;
+}
 .row_etc {
     flex: 0.06;
     display: flex;
